@@ -2,9 +2,9 @@ class Hsqlclient < Formula
     desc "HSQL client"
     homepage "https://github.com/hsqlclient/hsqlclient"
     url "https://sourceforge.net/projects/hsqldb/files/hsqldb/hsqldb_2_7/hsqldb-2.7.3.zip/download"                                                                                                                                                            ;url "https://github.com/hsqlclient/hsqlclient/releases/download/2.7.3/hsqldb-2.7.3.zip"    
-    sha256 "b2dac2aef2dda9c0c24f5bac8c47760195601a13f653df29ca4a4d67107fb402"
+    sha256 "4662d28fb72c65cdf5b13c95c07cd7867987466612079f057df3d762094d9c26"
     license "MIT"
-    revision 1
+    revision 2
     
     def install
         bin.install Dir["*"]
